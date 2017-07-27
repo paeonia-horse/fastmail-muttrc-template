@@ -1,0 +1,19 @@
+#IMAP
+
+set from = "name <username@domain>"
+set imap_user = "username@domain"
+set imap_pass = "password"
+set spoolfile = "imaps://mail.messagingengine.com"
+set folder = "imaps://mail.messagingengine.com/INBOX"
+set record = "+Sent Items"
+set postponed = "+Drafts"
+set read_inc = 1000
+set write_inc = 1000
+set mbox = "+Archive"
+set mail_check = 5
+
+#SMTP
+
+set smtp_pass = "password"
+set smtp_url = smtps://username@domain@mail.messagingengine.com:465/
+set ssl_starttls = yes
