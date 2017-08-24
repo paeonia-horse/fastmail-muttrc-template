@@ -17,3 +17,7 @@ set mail_check = 5
 set smtp_pass = "password"
 set smtp_url = smtps://username@domain@mail.messagingengine.com:465/
 set ssl_starttls = yes
+
+#Sort mail by most recent message first
+
+set sort = reverse-date-received
