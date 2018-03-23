@@ -21,3 +21,8 @@ set ssl_starttls = yes
 #Sort mail by most recent message first
 
 set sort = reverse-date-received
+
+#Email viewing priorities
+
+auto_view text/html
+alternative_order text/plain text/enriched text/html
